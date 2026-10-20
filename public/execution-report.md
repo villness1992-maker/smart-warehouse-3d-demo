@@ -37,3 +37,14 @@
 - 初始数据：40 种商品、200 个库位、292 条库存、292 条流水、4 位演示人员、2 条初始任务。
 - Token 消耗、精确模型标识：平台未提供。
 - 本地数据库范围：当前浏览器；设备间不共享。部署结果以 GitHub Actions 与 Pages 返回状态为准。
+
+
+## 发布记录补充
+
+2026-10-20，用户明确允许将仅含演示源码与模拟数据的仓库设为公开。先前私有仓库因账号套餐不支持 Pages 而无法启用，首次 Actions 在 configure-pages 步骤失败。获得授权后，仓库可见性已改为 public，Pages 已配置使用 GitHub Actions，并启用 HTTPS。
+
+- 页面地址：https://villness1992-maker.github.io/smart-warehouse-3d-demo/
+- 源码仓库：https://github.com/villness1992-maker/smart-warehouse-3d-demo
+- 部署记录：https://github.com/villness1992-maker/smart-warehouse-3d-demo/actions
+
+当前浏览器本地演示版不提供跨设备数据共享。
